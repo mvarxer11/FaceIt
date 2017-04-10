@@ -8,11 +8,13 @@
 
 import UIKit
 
-class FaceViewController: UIViewController {
+class FaceViewController: VCLLoggingViewController {
 
+    
     
     var expression = FacialExpression(eyes:.open,mouth:.grin) {
         didSet {
+            print("FaceViewController->expression didSet 调用updateUI()")
             updateUI()
         }
     }
@@ -33,6 +35,7 @@ class FaceViewController: UIViewController {
             swipDownRecognizer.direction = .down
             faceView.addGestureRecognizer(swipUpRecognizer)
             faceView.addGestureRecognizer(swipDownRecognizer)
+            print("FaceViewController->faceView didSet  调用updateUI()")
             updateUI()
         }
     }
@@ -59,7 +62,7 @@ class FaceViewController: UIViewController {
     
     private func updateUI() {
         
-        print("What happened?",faceView?.eyesOpen ?? "???")
+        print("****************************** faceView:",faceView ?? "nil")
         
         // 下面的faceView没有“？”号会crash
         //没有？号在第五讲里，单个ViewController中运行没问题

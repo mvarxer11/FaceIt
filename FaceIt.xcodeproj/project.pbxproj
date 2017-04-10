@@ -15,6 +15,7 @@
 		1B3052C01E98125E002A3BBF /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3052BF1E98125E002A3BBF /* FaceView.swift */; };
 		1B3052C21E981275002A3BBF /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3052C11E981275002A3BBF /* FacialExpression.swift */; };
 		1B3052C41E981444002A3BBF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3052C31E981444002A3BBF /* EmotionsViewController.swift */; };
+		1BA0A9951E9AAFEB00ED226C /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA0A9941E9AAFEB00ED226C /* VCLLoggingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B3052BF1E98125E002A3BBF /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		1B3052C11E981275002A3BBF /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		1B3052C31E981444002A3BBF /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
+		1BA0A9941E9AAFEB00ED226C /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1B3052AE1E981193002A3BBF /* FaceViewController.swift */,
 				1B3052BF1E98125E002A3BBF /* FaceView.swift */,
 				1B3052C11E981275002A3BBF /* FacialExpression.swift */,
+				1BA0A9941E9AAFEB00ED226C /* VCLLoggingViewController.swift */,
 				1B3052B01E981193002A3BBF /* Main.storyboard */,
 				1B3052BE1E98121F002A3BBF /* Supporting Files */,
 			);
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA0A9951E9AAFEB00ED226C /* VCLLoggingViewController.swift in Sources */,
 				1B3052AF1E981193002A3BBF /* FaceViewController.swift in Sources */,
 				1B3052C21E981275002A3BBF /* FacialExpression.swift in Sources */,
 				1B3052C41E981444002A3BBF /* EmotionsViewController.swift in Sources */,
@@ -322,6 +326,7 @@
 				1B3052BD1E981193002A3BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
